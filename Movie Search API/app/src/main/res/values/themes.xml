@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.MoviesearchAPPAPI" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- If you want your background to use a custom drawable, you can set it here -->
+
         <item name="android:windowBackground">@drawable/background_gradient</item>
-        <!-- Accent color (you can keep this or change as desired) -->
+
         <item name="android:colorAccent">@color/teal_200</item>
-        <!-- Set default text color to white -->
+        
         <item name="android:textColor">@color/white</item>
     </style>
 </resources>
