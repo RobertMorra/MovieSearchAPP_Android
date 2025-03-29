@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base layer: solid black background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+
+    <!-- Top gradient: red at the very top fading into black over 80dp -->
+    <item android:gravity="top">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#FF0000"
+                android:endColor="#000000"
+                android:type="linear" />
+            <size android:height="80dp" />
+        </shape>
+    </item>
+
+    <!-- Bottom gradient: black fading to red at the very bottom over 80dp -->
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#000000"
+                android:endColor="#FF0000"
+                android:type="linear" />
+            <size android:height="80dp" />
+        </shape>
+    </item>
+
+</layer-list>
